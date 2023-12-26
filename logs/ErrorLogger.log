@@ -1,0 +1,615 @@
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 14:51
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Локация ошибки: ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 15:10
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Метод вызвавший ошибку: add в классе ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 15:12
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:19
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:21
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:24
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 19 числа 11 месяца в 21:54
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:51
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:55
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Подсоединение по адресу localhost:3240 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:3240 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 9 more
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:02
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:02
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:04
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:05
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:08
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:17
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:18
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:21
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 65
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 22:00
+Сигнатура ошибки: com.thoughtworks.xstream.security.ForbiddenClassException
+Сообщение исключения: ru.esstu.Student
+Сообщение об ошибке: Ошибка при загрузке данных из XML
+Причина возникновения ошибки: метод loadFromXml класса ru.esstu.StudentListXML
+
+Стек вызовов:
+com.thoughtworks.xstream.security.ForbiddenClassException: ru.esstu.Student
+	at com.thoughtworks.xstream.security.NoTypePermission.allows(NoTypePermission.java:26)
+	at com.thoughtworks.xstream.mapper.SecurityMapper.realClass(SecurityMapper.java:74)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:125)
+	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:47)
+	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:131)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(CollectionConverter.java:99)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:92)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:86)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:81)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:74)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:68)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:52)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:136)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1464)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1441)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1330)
+	at ru.esstu.StudentListXML.loadFromXml(StudentListXML.java:81)
+	at ru.esstu.StudentListXML.<init>(StudentListXML.java:19)
+	at org.example.Main.main(Main.java:38)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 22:02
+Сигнатура ошибки: com.thoughtworks.xstream.security.ForbiddenClassException
+Сообщение исключения: ru.esstu.Student
+Сообщение об ошибке: Ошибка при загрузке данных из XML
+Причина возникновения ошибки: метод loadFromXml класса ru.esstu.StudentListXML
+
+Стек вызовов:
+com.thoughtworks.xstream.security.ForbiddenClassException: ru.esstu.Student
+	at com.thoughtworks.xstream.security.NoTypePermission.allows(NoTypePermission.java:26)
+	at com.thoughtworks.xstream.mapper.SecurityMapper.realClass(SecurityMapper.java:74)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:125)
+	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:47)
+	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readBareItem(AbstractCollectionConverter.java:131)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:117)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(CollectionConverter.java:99)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:92)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:86)
+	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:81)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:74)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:68)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:52)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:136)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1464)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1441)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1330)
+	at ru.esstu.StudentListXML.loadFromXml(StudentListXML.java:81)
+	at ru.esstu.StudentListXML.<init>(StudentListXML.java:19)
+	at org.example.Main.main(Main.java:38)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:1819)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:518)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:34)
+	at org.example.Main.displayStudents(Main.java:90)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:1819)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:518)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:34)
+	at org.example.Main.displayStudents(Main.java:88)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:1819)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:518)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:34)
+	at org.example.Main.displayStudents(Main.java:90)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.prepareStatement(PgConnection.java:1826)
+	at org.postgresql.jdbc.PgConnection.prepareStatement(PgConnection.java:523)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:56)
+	at org.example.Main.addStudent(Main.java:110)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:1819)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:518)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:34)
+	at org.example.Main.displayStudents(Main.java:88)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 24 числа 12 месяца в 23:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Соединение уже было закрыто
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:1819)
+	at org.postgresql.jdbc.PgConnection.createStatement(PgConnection.java:518)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:34)
+	at org.example.Main.displayStudents(Main.java:90)
+	at org.example.Main.main(Main.java:65)
+
