@@ -1,0 +1,9 @@
+<students>
+  <student>
+    <id>1</id>
+    <firstName>Мария</firstName>
+    <lastName>Сидорова</lastName>
+    <partonymicName></partonymicName>
+    <group>Инф102</group>
+  </student>
+</students>
